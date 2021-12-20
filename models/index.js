@@ -1,7 +1,6 @@
 const User = require('./User');
 const Blog = require('./Blog');
 const Comment = require('./Comment');
-// This file is already good to go! Just make sure you have the foreign key on the Project model!!
 
 User.hasMany(Blog, {
   foreignKey: 'user_id',
