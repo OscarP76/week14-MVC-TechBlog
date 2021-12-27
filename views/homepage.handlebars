@@ -6,7 +6,7 @@
       <a href="/blog/{{blog.id}}">{{blog.title}}</a>
     </h2>
   
-    <p>Created by {{blog.user.username}} on {{format_date blog.dateCreated}}</p>
+    <p>Blog Author {{blog.user.username}} on {{format_date blog.dateCreated}}</p>
   </div>
   <div class="col-md-7">
     <p>
@@ -14,4 +14,7 @@
     </p>
   </div>
 </div>
+        {{#each comments}}
+          <p>{{comment}} {{format_date dateCreated}} {{user.username}}</p>
+        {{/each}}
 {{/each}}

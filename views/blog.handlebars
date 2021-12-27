@@ -1,0 +1,14 @@
+<div class="text-center">
+  <input id="title" value="{{title}}">
+  
+  <textarea  id="contents">{{contents}}</textarea>
+
+  <button id="edit-blog">Edit blog</button>
+  <p>Created by {{user.username}} on {{format_date dateCreated}}</p>
+  <p>
+    <textarea name="" id="comment" cols="30" rows="10"></textarea>
+    <button id="addComment" class="btn btn-primary">Add Comments!</button>
+  </p>
+</div>
+
+<script src="/js/blog.js"></script>
