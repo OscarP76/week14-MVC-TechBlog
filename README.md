@@ -10,4 +10,4 @@ Sequelize <br>
 [https://mvc-techblog-oplum.herokuapp.com/](https://mvc-techblog-oplum.herokuapp.com/)
 
 ## Preview of the site
-!.[image](assets\MVCtechBlogPic.png)
+[image](assets\MVCtechBlogPic.png)
