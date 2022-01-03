@@ -7,5 +7,5 @@ ExpressJS <br>
 Handlebars <br>
 Sequelize <br>
 ## Link to App
-[Link](https://mvc-techblog-oplum.herokuapp.com/)
+[MVC TechBlog](https://mvc-techblog-oplum.herokuapp.com/)
 
